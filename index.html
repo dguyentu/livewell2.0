@@ -13,7 +13,7 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -27,29 +27,30 @@
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo">live well bedding inc.</td>
+                <!-- <td id="logo">live well bedding inc.</td> -->
+                <td id="logo"><img class="brandLogo" src="images/logos/lwb_bb.png" alt="live well bedding inc."></td>
                 <td id="navigation">
-                    <a href="#work">our products</a>
+                    <a href="inStock_Products.html">our products</a>
                     <a href="#bio">about</a>
-                    <a href="">blog</a>
+                    <a href="index.html">blog</a>
                     <a href="#contact">contact</a>
                 </td>
             </tr>
         </table>
-    </header>
+    </header><br><br><br><br><br><br><br><br><br>
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
                 <h4>established in 2014 <i><strong>LiveWell Bedding</strong> </i>is a wholesale service based in Queens, NY. Born out of our passion for a good night's rest we specialize in premium duvets,
                     bedsheet sets, comforters & pillows.</h4>
-                <button class="btn_one">Order</button><br>
+                    <a href="inStock_Products.html"><button class="btn_one">view in-stock</button></a><br>
                 <table>
                     <tr>
                         <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i
                                     class="fab fa-facebook"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i
                                     class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.instagram.com/livewellbedding/?hl=en" target="_blank" class="social"><i
                                     class="fab fa-instagram"></i></a></td>
                         
                     </tr>
@@ -61,6 +62,8 @@
     <div id="work">
         <h1>products in action</h1>
         <div id="photos">
+            <img onclick="magnify($(this).attr('src'))"
+                src="images/productsInAction/bambooPillows.jpg">
             <img onclick="magnify($(this).attr('src'))"
                 src="images/productsInAction/b1.jpg">
             <img onclick="magnify($(this).attr('src'))"
@@ -99,10 +102,10 @@
                     <div id="inner_div">
                         <table id="inner_table">
                             <tr>
-                                <td><i class="fas fa-phone"></i> &nbsp; +1 347-738-7576</td>
+                                <td><i class="fas fa-phone"></i> &nbsp; <a style="color:black ; text-decoration:none;" href="tel:+13477387576">+1 347-738-7576</a></td>
                             </tr>
                             <tr>
-                                <td><i class="fas fa-at"></i> &nbsp; livewellbedding@gmail.com</td>
+                                <td><i class="fas fa-at"></i> &nbsp; <a style="color:black; text-decoration:none;" href="mailto:livewellbedding@gmail.com">livewellbedding@gmail.com</a></td>
                             </tr>
                     
                             <tr>
@@ -118,7 +121,7 @@
                                 <td>
                                     <a class="social"><i class="fab fa-facebook"></i></a>
                                     <a class="social"><i class="fab fa-twitter"></i></a>
-                                    <a class="social"><i class="fab fa-instagram"></i></a>
+                                    <a class="social" href="https://www.instagram.com/livewellbedding/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
                                     
                                 </td>
                             </tr>
@@ -141,7 +144,7 @@
             </script> live well bedding inc.</span>
         </p>
     </div>
-    <script src="index.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 </body>
 
 </html>
