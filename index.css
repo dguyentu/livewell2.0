@@ -27,7 +27,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid #385170;
+    border:12px solid #100b47;
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -74,7 +74,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color: #385170;
+    color: #100b47;
     cursor:pointer;
 }
 #img_here {
@@ -86,7 +86,7 @@ header table {
 }
 #logo {
     font-size:24px;
-    color:#385170;
+    color:#100b47;
 }
 #navigation {
     text-align:right;
@@ -131,7 +131,7 @@ header table {
     text-align:left;
 }
 .social {
-    color: #385170;
+    color: #100b47;
     font-size:23px;
     padding:12px 17px;
     border-radius:50%;
@@ -143,15 +143,15 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#fff;
-    background: #385170;
-    box-shadow:0px 10px 30px #385170;
+    background: #100b47;
+    box-shadow:0px 10px 30px #100b47;
 }
 .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
-    color:#385170;
+    color:#100b47;
     background:#fff;
-    border:3px solid #385170;
+    border:3px solid #100b47;
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -160,10 +160,35 @@ header table {
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
-    box-shadow:0px 10px 30px #385170;
+    box-shadow:0px 10px 30px #100b47;
     cursor:pointer;
     color:#fff;
-    background: #385170;
+    background: black;
+}
+.addToCartButton{
+    cursor: pointer;
+    -webkit-appearance: none;
+    color: #fff;
+    background-color: #133986;
+    border: 1px solid #113478;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 16px 24px;
+    display: block;
+    white-space: nowrap;
+}
+
+.upperRightShoppingCart{
+    cursor:pointer;
+    color:#100b47;
+    font-size: 35px;
+    background: none;
+    border: none;
+    margin-left: 5%;
 }
 #rightImage {
     width:100%;
@@ -179,7 +204,7 @@ header table {
 }
 #work h1 {
     padding:5px 0px;
-    border-bottom:4px solid #385170;
+    border-bottom:4px solid #100b47;
     width:6%;
 }
 #photos {
@@ -206,7 +231,7 @@ header table {
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid #385170;
+    border-bottom:4px solid #100b47;
     width:8%;
 }
 #contact {
@@ -215,7 +240,7 @@ header table {
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid #385170;
+    border-bottom:4px solid #100b47;
     width:10%;
 }
 #contact table {
@@ -266,11 +291,11 @@ header table {
 }
 #contact form input:focus {
     outline:none;
-    border-bottom:3px solid #385170;
+    border-bottom:3px solid #100b47;
 }
 #contact form textarea:focus {
     outline:none;
-    border-bottom:3px solid #385170;
+    border-bottom:3px solid #100b47;
 }
 #address {
     position:relative;
@@ -284,7 +309,7 @@ header table {
     font-weight:bold;
 }
 #footer a {
-    color: #385170;
+    color: #100b47;
     text-decoration:none;
 }
 ::placeholder {
@@ -347,12 +372,12 @@ button:focus {
     padding:6px 30px;
     width:60%;
     margin:4vh auto;
-    box-shadow:0px 10px 20px #385170;
-    background: #385170;
+    box-shadow:0px 10px 20px #100b47;
+    background: #100b47;
     color:#fff;
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px #385170;
+        box-shadow:0px 10px 40px #100b47;
         cursor:pointer;
     }
     #contact table tr td {
