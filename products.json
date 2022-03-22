@@ -1,5 +1,22 @@
-{
+[
+    {
     "id": "bamboo-pillow",
     "price": 15.99,
     "url": "https://livewellbeddingny.com/products.json"
-  }
+},
+{
+    "id": "4-piece-duvet-bluePlaid",
+    "price": 50.00,
+    "url":"https://livewellbeddingny.com/products.json"
+},
+{
+    "id": "4-piece-duvet-blueTriangles",
+    "price": 50.00,
+    "url":"https://livewellbeddingny.com/products.json"
+},
+{
+    "id": "4-piece-duvet-mossOrangeFloral",
+    "price": 50.00,
+    "url":"https://livewellbeddingny.com/products.json"
+}
+]
